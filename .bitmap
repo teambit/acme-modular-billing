@@ -12,7 +12,7 @@
     "billing/billing-history-page": {
         "name": "billing/billing-history-page",
         "scope": "acme-modular.billing",
-        "version": "e307c6e010a530b8e1f6ac0add71f0623f704b00",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "billing/billing/billing-history-page"
     },
@@ -33,7 +33,7 @@
     "billing/invoice-view": {
         "name": "billing/invoice-view",
         "scope": "acme-modular.billing",
-        "version": "a0a3045dcfde739f26593bf721016ee5217f97c4",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "billing/billing/invoice-view"
     },
