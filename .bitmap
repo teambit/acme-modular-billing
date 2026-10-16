@@ -9,12 +9,55 @@
  */
 
 {
+    "billing/billing-history-page": {
+        "name": "billing/billing-history-page",
+        "scope": "acme-modular.billing",
+        "version": "e307c6e010a530b8e1f6ac0add71f0623f704b00",
+        "mainFile": "index.ts",
+        "rootDir": "billing/billing/billing-history-page",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
+    "billing/invoice": {
+        "name": "billing/invoice",
+        "scope": "acme-modular.billing",
+        "version": "720f405fd6e28d40805c5a38ea1c6f7eee92c434",
+        "mainFile": "index.ts",
+        "rootDir": "billing/billing/invoice",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
     "billing/invoice-total": {
         "name": "billing/invoice-total",
         "scope": "acme-modular.billing",
-        "version": "0.0.2",
+        "version": "0441491f55b8f98553366572fd9dae41053e80ed",
         "mainFile": "index.ts",
         "rootDir": "billing/billing/invoice-total"
     },
-    "$schema-version": "17.0.0"
+    "billing/invoice-view": {
+        "name": "billing/invoice-view",
+        "scope": "acme-modular.billing",
+        "version": "a0a3045dcfde739f26593bf721016ee5217f97c4",
+        "mainFile": "index.ts",
+        "rootDir": "billing/billing/invoice-view",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
+    "billing/use-invoices": {
+        "name": "billing/use-invoices",
+        "scope": "acme-modular.billing",
+        "version": "baadf72f6f5debbf58bff087e9c00aeb2792c117",
+        "mainFile": "index.ts",
+        "rootDir": "billing/billing/use-invoices",
+        "onLanesOnly": true,
+        "isAvailableOnCurrentLane": true
+    },
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "org-scale-content",
+            "scope": "acme-modular.platform"
+        },
+        "exported": true
+    }
 }
